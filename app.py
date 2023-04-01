@@ -14,13 +14,13 @@ def fuwuquzhidao_page():
     return render_template('fuwuquzhidao.html')
 
 
-@app.route('/index1.html',methods=['GET','POST'])
+@app.route('/club_index1.html',methods=['GET','POST'])
 def index1_page():
-    return render_template('index1.html')
+    return render_template('club_index1.html')
 
-@app.route('/index2.html',methods=['GET','POST'])
+@app.route('/club_index2.html',methods=['GET','POST'])
 def index2_page():
-    return render_template('index2.html')
+    return render_template('club_index2.html')
 
 @app.route('/jdhistory.html',methods=['GET','POST'])
 def jdhistory_page():
